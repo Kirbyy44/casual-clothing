@@ -1,0 +1,143 @@
+/*homepage css*/
+
+nav ul li{
+    font-size: 30px;
+    text-shadow: 0px 2px 1px cornflowerblue;
+    
+}
+.nav{
+    color:blue;
+}
+h1{
+    text-shadow: 0px 2px 1px cornflowerblue;
+}
+.turkey{
+    background-position: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://im.uniqlo.com/global-cms/spa/res1902ec30fa934ea7d5e5289a4e43a4f7fr.jpg);
+}
+/*homepage paragraph on image*/
+.description{
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    left: 3px;
+    text-shadow: 0px 0px 60px;
+    bottom:190px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 10px 3px 10px rgb(153, 179, 168);
+}
+/*homepage css ending*/
+/*contact css begin*/
+.skeleton{
+    background-color: rgb(255, 255, 255);
+}
+.information{
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    margin-top: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    border: 20px;
+    height: 400px;
+   
+    box-shadow: 0px 10px 20px grey;
+}
+.button{
+    background-color: black;
+    border-radius: 90px;
+    color: rgb(53, 53, 53);
+}
+.input{
+    height: 20px;
+}
+
+/*contact css end*/
+/*about css begin*/
+.container{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:400px 400px ;
+    grid-template-rows: 200px 200px;
+    gap:200px;
+}
+.container h2 {
+    line-height: 30px;
+    text-shadow: 0px 0px 0px 2px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.fan{
+    font-size: 20px;
+}
+/*projects css begin*/
+.shirt p{
+    
+text-align: center;
+}
+.project{
+    margin-top: 50px;
+    gap:30px;
+    position:absolute;
+    left:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: max-content;
+}
+.sweatshirt img{
+    border-radius: 50px;
+    width:600px;
+    height: 700px;
+}
+.shirt img{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.shirt{
+    text-align: center;
+    background-color: rgb(153, 179, 168);
+    border-radius: 30px;
+    margin-top: 90 px;
+    font-size: 30px;
+    color:white;
+    width:800px;
+    float:center;
+    height:800px;
+}
+.sweatshirt{
+   
+    font-size: 30px;
+    background-color: rgb(153, 179, 168);
+   border-radius: 30px;
+   text-align: center;
+   color: white;
+   width:800px;
+   float:center;
+   height: 800px;
+
+}
+.mail{
+    text-align: center;
+    background-color:rgb(62, 117, 221) ;
+    color:white;
+    font-size:30px;
+    height: 80px;
+    width:300px;
+    margin-left: 400px;
+    position:absolute;
+    margin-top: 400px;
+    bottom:0;
+    
+}
